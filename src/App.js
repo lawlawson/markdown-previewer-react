@@ -11,6 +11,15 @@ export default class App extends React.Component {
       padding: '10px',
     };
 
+    const outputStyle = {
+      width: '400px',
+      height: '50vh',
+      backgroundColor: '#DCDCDC',
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      padding: '10px',
+    };
+
     return (
       <div className='App'>
         <div className='container'>
@@ -47,6 +56,7 @@ export default class App extends React.Component {
                   </Badge>
                 </h4>
               </div>
+              <div style={outputStyle}></div>
             </div>
           </div>
         </div>
