@@ -61,23 +61,6 @@ And here. | Okay. | I think we get it.
   }
 
   render() {
-    // const inputStyle = {
-    //   width: '400px',
-    //   height: '50vh',
-    //   marginLeft: 'auto',
-    //   marginRight: 'auto',
-    //   padding: '10px',
-    // };
-
-    // const outputStyle = {
-    //   width: '400px',
-    //   height: '100%',
-    //   backgroundColor: '#DCDCDC',
-    //   marginLeft: 'auto',
-    //   marginRight: 'auto',
-    //   padding: '10px',
-    // };
-
     return (
       <div className='App'>
         <div className='container'>
