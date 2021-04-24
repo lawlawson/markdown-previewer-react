@@ -1,5 +1,6 @@
 import React from 'react';
 import Badge from 'react-bootstrap/Badge';
+let marked = require('marked');
 
 export default class App extends React.Component {
   constructor(props) {
@@ -73,7 +74,11 @@ export default class App extends React.Component {
                   </Badge>
                 </h4>
               </div>
-              <div style={outputStyle}></div>
+              <div
+                style={outputStyle}
+                dangerouslySetInnerHTML={{
+                  __html: marked(this.state.markdown),
+                }}></div>
             </div>
           </div>
         </div>
