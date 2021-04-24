@@ -4,7 +4,7 @@ This project fulfils the 8 user stories outlined by FreeCodeCamp and was built u
 
 I have created this project using React.js
 
-[Click here to view]()
+[Click here to view](https://mp-react.netlify.app/)
 
 ## How to test
 
